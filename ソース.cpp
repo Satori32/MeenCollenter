@@ -20,6 +20,10 @@ struct Meen {
 	Characters Code;
 	Characters Name;
 	Characters Info;
+	//type W = NULL;
+	typedef void* W;
+	//type Word ~W;
+	W Strage;
 
 	//type Type = NULL;
 	typedef void* Type;
